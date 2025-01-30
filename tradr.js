@@ -3,7 +3,7 @@ function tradr(key) {
       const idiomaBase = idioma.split('-')[0]; 
 
       const xhr = new XMLHttpRequest();
-      xhr.open("GET", "../lib/lang.json", false);
+      xhr.open("GET", "lang.json", false);
 
       try {  
         xhr.send();
